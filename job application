@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobe aplication</title>
+    <link rel="stylesheet" href="jobeapplication.css">
+</head>
+<body>
+    <div class="containor">
+        <div class="apply_box">
+            <h1>
+                Jobe Application
+                <span class="title_small">(web)</span>
+            </h1>
+            <form action="">
+                <div class="form_containor">
+                    <div class="form_control">
+                        <label for="Fname">First Name</label>
+                        <input type="text" name="Fname" id="Fname" placeholder="Enter the first name....">
+                    </div>
+                    <div class="form_controle">
+                        <label for="Lname">Last Name</label>
+                        <input type="text" name="Lname" id="Lname" placeholder="Enter your last name....">
+                    </div>
+                    <div class="forem_control">
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" id="Email" placeholder="Enter your email adress....">
+                    </div>
+                    <div class="form_control">
+                        <label for="Pnumber">Phone Number</label>
+                        <input type="number" class="Pnumber" id="Pnumber" placeholder="Enter Your Phone number....">
+                    </div>
+                    <div class="form_control">
+                        <label for="Jobe_role">Please Select your Jobe Role</label>
+                        <select name="Jobe_role" id="Jobe_role">
+                            <option value="">Select Jobe Role</option>
+                            <option value="frontend">Froentend Devloper</option>
+                            <option value="backend">Backend Devloper</option>
+                            <option value="Fule_stack">Full Stack Developer</option>
+                            <option value="ui_ux">UI UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="describe_yourelf">
+                        <label for="describe_yourelf">Describe yourself and your previous work experience</label>
+                        <textarea name="describe_yourelf" id="describe_yourelf" cols="30" rows="5" placeholder="Describe hear...."></textarea>
+                    </div>
+                    <div class="textarea_for_adress">
+                        <label for="Adress">Enter your Adress</label>
+                        <textarea name="textarea_for_adress" id="textarea_for_adress" cols="30" rows="5" placeholder="Enter Edress hear...."></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="city">City</label>
+                        <input type="text" class="city" id="city" placeholder="Enter your city name....">
+                    </div>
+                    <div class="form_control">
+                        <label for="pincode">Pincide</label>
+                        <input type="number" name="pincode" id="pincode" placeholder="Enter postal pincode">
+                    </div>
+                    <div class="form_control">
+                        <label for="cv">Upload your CV</label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+                    <div class="button_containor">
+                        <button type="submit">Apply now</button>
+                    </div>
+                    <div class="button_containor">
+                        <button type="reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
